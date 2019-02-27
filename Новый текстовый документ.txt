@@ -1,0 +1,13 @@
+void TreeTravelsal_LRC(Node *p);
+	//обход "лево-право-корень"
+	void TreeTravelsal_RLC(Node *p);
+	//обход "право-лево-корень"
+
+	Node *FindKey(Node *p, int k);
+	//поиск ключа
+	Node *FindMin(Node *p);
+	//поиск минимума
+	Node *FindMах(Node *p);
+	//поиск максимума
+	int FindHight(Node *p);
+	//поиск высота
